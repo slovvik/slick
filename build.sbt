@@ -18,6 +18,7 @@ Global / concurrentRestrictions :=
     Tags.limit(tagTestGroupOther, 1),
     Tags.limit(Tags.Tag("test-group-DB2"), 1),
     Tags.limit(Tags.Tag("test-group-Postgres"), 1),
+    Tags.limit(Tags.Tag("test-group-SQLServer"), 1),
     Tags.exclusiveGroup(tagTestGroupOther),
     Tags.exclusiveGroup(Tags.Clean)
   )
